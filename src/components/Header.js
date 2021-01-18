@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import TeslaLogo from "../assets/teslaLogoSmall.svg";
+import Burger from "./BurgerMenu";
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
         <p>Shop</p>
         <p>Tesla Account</p>
       </div>
+      <Burger />
     </div>
   );
 };

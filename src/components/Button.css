@@ -1,0 +1,31 @@
+.button {
+  background-color: rgb(79, 75, 75);
+  height: 40px;
+  width: 256px;
+  margin: 8px;
+  border-radius: 100px;
+  opacity: 0.85;
+}
+
+.item_buttons {
+  display: flex;
+  text-align: center;
+}
+
+.button > a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.button_white {
+  background-color: white;
+  opacity: 0.65;
+}
+
+.button_white > a {
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+}
